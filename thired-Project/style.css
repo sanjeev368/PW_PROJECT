@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Red Hat Text", sans-serif;
+}
+.container{
+  text-align: center;
+  color: #333;
+  width: 100%;
+  min-width: 100vh;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("image1.png");
+  background-size: cover;
+  background-position: center;
+  gap: 20px;
+  background-attachment: fixed;
+}
+h1{
+  font-size: 700;
+  font-size: 48px;
+}
+a{
+  padding: 16px 56px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.second{
+  background-image: url("image2.png");
+  background-attachment: fixed;
+  height: 100Vh;
+  flex-direction: row;
+  gap: 20px;
+}
+.Item{
+  display: flex;
+  max-width: 320px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5em;
+  padding: 20px;
+
+  img{
+    width: 100%;
+    height: 200px;
+  }
+  h3{
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 16px;
+  }
+  p{
+    margin-top: 24px;
+    line-height: 24px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.third{
+  background-image: url("image6.png");
+  background-attachment: fixed;
+  height: 100vh;
+  
+  .content{
+    background-color: rgb(255, 255,255,0.9);
+    padding: 32px;
+    border-radius: 16px;
+    max-width: 600px;
+    h2{
+      font-weight: 700;
+      font-size: 40px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    p{
+      margin-bottom: 24px;
+      line-height: 24px;
+      padding: 16px;
+    }
+  }
+}

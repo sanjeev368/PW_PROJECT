@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+  integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="startButton">
+    <button class="startBtn">Start Quiz</button>
+  </div>
+<div class="Infoox">
+    <div class="info-box-title">
+      Same Rules of this Quiz
+    </div>
+    <div class="info-list">
+      <div class="info-row">
+        1. You will have only 15 seconds per each question.
+      </div>
+      <div class="info-row">
+        2. Once you select your answer, it can't be undone.
+      </div>
+      <div class="info-row">
+        3. You can't select any option once time goes off.
+      </div>
+      <div class="info-row">
+        4. You can't exit from the Quiz while you're playing.
+      </div>
+      <div class="info-row">
+        5. You'll get points on the basis of your correct answers.
+      </div>
+    </div>
+    <div class="footer">
+      <button class="exitBtn">Exit</button>
+      <button class="ContinueBtn">Continue</button>
+    </div>
+  </div>
+<div class="quiz-box">
+  <div class="quiz-header-section">
+    <div class="quiz-titleConainer">
+      <span class="Quiz-title">Awesome Quize Application </span>
+      <div class="timelineContainer">
+        <span class="Time_line-title">Time Off</span>
+        <div class="timeline">00</div>
+      </div>
+    </div>
+    <div class="progressBar"></div>
+  </div>
+  <div class="quiz-content-section">
+    <div class="questionText">
+    </div>
+    <div class="option-list-container">
+      <div class="option"></div>
+      <div class="option"></div>
+      <div class="option"></div>
+      <div class="option"></div>
+    </div>
+    <div class="quize-footer-section">
+      <span class="quize-footer-text">
+        <span class="highlighted-text  currentQuestionIndicator">1</span>Of
+        <span class="highlighted-text">10</span>Question
+      </span>
+      <button class="nextBtn">Next Que</button>
+    </div>
+  </div>
+</div>
+
+<div class="result-box">
+  <div class="crownIcon"><i class="fas fa-crown"></i></div>
+  <div class="completedText"> You've completed the Quiz!</div>
+  <div class="score-Text"><span>and nice, you got <p>2</p> out of <p>10</p></span></div>
+  <div class="result-box-button-container">
+    <button class="reply_Quiz">Replay Quiz</button>
+    <button class="Quit Quiz">Quit Quiz</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="question.js"></script>
+</body>
+</html>
